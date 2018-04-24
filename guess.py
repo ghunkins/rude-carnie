@@ -130,7 +130,7 @@ def list_images(srcfile):
         return [row[0] for row in reader]
 
 def main(argv=None):  # pylint: disable=unused-argument
-
+    print("in main")
     files = []
     
     if FLAGS.face_detection_model:
@@ -139,10 +139,11 @@ def main(argv=None):  # pylint: disable=unused-argument
         face_files, rectangles = face_detect.run(FLAGS.filename)
         print(face_files)
         files += face_files
-
+    print("past face detection")
     config = tf.ConfigProto(allow_soft_placement=True)
+    print("past config")
     with tf.Session(config=config) as sess:
-
+        print("tf Session")
         label_list = AGE_LIST if FLAGS.class_type == 'age' else GENDER_LIST
         nlabels = len(label_list)
 
