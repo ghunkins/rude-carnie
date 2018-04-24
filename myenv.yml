@@ -1,0 +1,58 @@
+name: AGE_GENDER
+channels:
+  - menpo
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2018.4.16=0
+  - certifi=2018.4.16=py35_0
+  - h5py=2.7.1=py35_1
+  - keras=2.1.5=py35_0
+  - libprotobuf=3.5.2=0
+  - mock=2.0.0=py35_0
+  - openssl=1.0.2o=0
+  - pbr=4.0.2=py_0
+  - protobuf=3.5.2=py35_0
+  - pyyaml=3.12=py35_1
+  - six=1.11.0=py35_1
+  - tensorflow=1.0.0=py35_0
+  - yaml=0.1.7=0
+  - hdf5=1.8.18=h017327d_1
+  - intel-openmp=2018.0.0=8
+  - libcxx=4.0.1=h579ed51_0
+  - libcxxabi=4.0.1=hebd6815_0
+  - libedit=3.1=hb4e282d_0
+  - libffi=3.2.1=h475c297_4
+  - libgfortran=3.0.1=h93005f0_2
+  - mkl=2018.0.2=1
+  - mkl_fft=1.0.1=py35h917ab60_0
+  - mkl_random=1.0.1=py35h78cc56f_0
+  - ncurses=6.0=hd04f020_2
+  - numpy=1.14.2=py35ha9ae307_1
+  - pip=9.0.3=py35_0
+  - python=3.5.5=hc167b69_1
+  - readline=7.0=hc1231fa_4
+  - scipy=1.0.1=py35hcaad992_0
+  - setuptools=39.0.1=py35_0
+  - sqlite=3.23.1=hf1716c9_0
+  - tk=8.6.7=h35a86e2_3
+  - wheel=0.31.0=py35_0
+  - xz=5.2.3=h0278029_2
+  - zlib=1.2.11=hf3cbc9b_2
+  - opencv3=3.1.0=py35_0
+  - tbb=4.3_20141023=0
+  - pip:
+    - cycler==0.10.0
+    - decorator==4.3.0
+    - dlib==19.10.0
+    - kiwisolver==1.0.1
+    - matplotlib==2.2.2
+    - networkx==2.1
+    - pillow==5.1.0
+    - pyparsing==2.2.0
+    - python-dateutil==2.7.2
+    - pytz==2018.4
+    - pywavelets==0.5.2
+    - scikit-image==0.13.1
+prefix: /Users/ghunk/anaconda2/envs/AGE_GENDER
+
