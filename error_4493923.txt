@@ -1,0 +1,52 @@
+WARNING:tensorflow:From /scratch/ghunkins/anaconda2/envs/AGE_GENDER/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+2018-04-23 22:22:24.138975: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-04-23 22:22:27.526390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: Tesla K20Xm major: 3 minor: 5 memoryClockRate(GHz): 0.732
+pciBusID: 0000:20:00.0
+totalMemory: 5.57GiB freeMemory: 5.49GiB
+2018-04-23 22:22:27.768527: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 1 with properties: 
+name: Tesla K20Xm major: 3 minor: 5 memoryClockRate(GHz): 0.732
+pciBusID: 0000:8b:00.0
+totalMemory: 5.57GiB freeMemory: 5.49GiB
+2018-04-23 22:22:27.768656: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0, 1
+2018-04-23 22:22:28.332079: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-04-23 22:22:28.332182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 1 
+2018-04-23 22:22:28.332206: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N N 
+2018-04-23 22:22:28.332225: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 1:   N N 
+2018-04-23 22:22:28.332594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5285 MB memory) -> physical GPU (device: 0, name: Tesla K20Xm, pci bus id: 0000:20:00.0, compute capability: 3.5)
+2018-04-23 22:22:28.386606: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 5285 MB memory) -> physical GPU (device: 1, name: Tesla K20Xm, pci bus id: 0000:8b:00.0, compute capability: 3.5)
+2018-04-23 22:22:32.543219: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0, 1
+2018-04-23 22:22:32.543347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-04-23 22:22:32.543378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 1 
+2018-04-23 22:22:32.543400: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N N 
+2018-04-23 22:22:32.543420: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 1:   N N 
+2018-04-23 22:22:32.543635: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5285 MB memory) -> physical GPU (device: 0, name: Tesla K20Xm, pci bus id: 0000:20:00.0, compute capability: 3.5)
+2018-04-23 22:22:32.543763: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 5285 MB memory) -> physical GPU (device: 1, name: Tesla K20Xm, pci bus id: 0000:8b:00.0, compute capability: 3.5)
+WARNING:tensorflow:From /scratch/ghunkins/anaconda2/envs/AGE_GENDER/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+2018-04-23 23:13:54.137981: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-04-23 23:13:57.520849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: Tesla K20Xm major: 3 minor: 5 memoryClockRate(GHz): 0.732
+pciBusID: 0000:20:00.0
+totalMemory: 5.57GiB freeMemory: 5.49GiB
+2018-04-23 23:13:57.763274: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 1 with properties: 
+name: Tesla K20Xm major: 3 minor: 5 memoryClockRate(GHz): 0.732
+pciBusID: 0000:8b:00.0
+totalMemory: 5.57GiB freeMemory: 5.49GiB
+2018-04-23 23:13:57.763390: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0, 1
+2018-04-23 23:13:58.330278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-04-23 23:13:58.330369: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 1 
+2018-04-23 23:13:58.330392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N N 
+2018-04-23 23:13:58.330410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 1:   N N 
+2018-04-23 23:13:58.330800: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5285 MB memory) -> physical GPU (device: 0, name: Tesla K20Xm, pci bus id: 0000:20:00.0, compute capability: 3.5)
+2018-04-23 23:13:58.385086: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 5285 MB memory) -> physical GPU (device: 1, name: Tesla K20Xm, pci bus id: 0000:8b:00.0, compute capability: 3.5)
+2018-04-23 23:14:02.431751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0, 1
+2018-04-23 23:14:02.431873: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-04-23 23:14:02.431903: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 1 
+2018-04-23 23:14:02.431923: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N N 
+2018-04-23 23:14:02.431941: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 1:   N N 
+2018-04-23 23:14:02.432164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 5285 MB memory) -> physical GPU (device: 0, name: Tesla K20Xm, pci bus id: 0000:20:00.0, compute capability: 3.5)
+2018-04-23 23:14:02.432286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 5285 MB memory) -> physical GPU (device: 1, name: Tesla K20Xm, pci bus id: 0000:8b:00.0, compute capability: 3.5)
