@@ -1,0 +1,5 @@
+tensorflow==1.0.0
+opencv_python==3.4.0.12
+six==1.10.0
+dlib==19.10.0
+numpy==1.13.1

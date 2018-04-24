@@ -7,6 +7,6 @@
 #SBATCH -e error_%j.txt
 #SBATCH --gres=gpu:2
 
-source activate GENDER_AGE
+source activate AGE_GENDER
 python guess.py --target age.csv --model_type inception --model_dir ./models/age/ --filename image_paths.txt --single_look
 python guess.py --target gender.csv --model_type inception --model_dir ./models/gender/ --filename image_paths.txt --single_look --class_type gender
