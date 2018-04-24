@@ -92,7 +92,6 @@ def classify_many_single_crop(sess, label_list, softmax_output, coder, images, i
 
 def classify_one_multi_crop(sess, label_list, softmax_output, coder, images, image_file, writer):
     try:
-
         print('Running file %s' % image_file)
         image_batch = make_multi_crop_batch(image_file, coder)
 

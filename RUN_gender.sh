@@ -1,0 +1,1 @@
+python guess.py --target gender.csv --model_type inception --class_type gender --model_dir ./models/gender/ --filename image_paths.txt --single_look
