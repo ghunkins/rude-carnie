@@ -1,0 +1,14 @@
+Executing on /cpu:0
+selected (fine-tuning) inception model
+./models/age/checkpoint-14999
+Creating output file age.csv
+[]
+float division by zero
+Failed to run all images
+Executing on /cpu:0
+selected (fine-tuning) inception model
+./models/gender/checkpoint-14999
+Creating output file gender.csv
+[]
+float division by zero
+Failed to run all images
