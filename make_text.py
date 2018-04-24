@@ -4,7 +4,7 @@ from a glob.
 """
 import glob
 
-folder = '/Users/ghunk/Desktop/GRADUATE/CSC_449/Final_Project/face-alignment/extracted/'
+folder = '/scratch/ghunkins/rude-carnie/extracted/'
 
 if __name__ == '__main__':
 	image_list = glob.glob(folder+'**/*.jpg', recursive=True)
