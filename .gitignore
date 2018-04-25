@@ -2,3 +2,4 @@ models/*
 *.pyc
 .DS_Store
 extracted/*
+young_128x128/*
